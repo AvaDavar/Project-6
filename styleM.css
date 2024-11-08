@@ -1,0 +1,24 @@
+
+/* This applies to the body*/
+body {
+    background-image: url(rose1.4.gif), url(background1.4.jpeg); /* you can add both imgs like this */
+    background-position: right top, left top;  /* where to place the imgs */
+    background-repeat: no-repeat, repeat;  /* you don't want the rose to repeat but you do want the paper bacground
+to. */
+    margin: 50px;  /* where the div will go */
+  }
+/* This applies to the border*/
+  #borderimg { 
+    border: 10px solid transparent;  /* 10px is for the thickness and you have to add solid transparent 
+    if you want to show the border */
+    padding: 15px;  /*It is how curvy the border is*/
+    border-image: url(border1.4.png) 30 round;  /* It is how to insert the img for your body */
+    text-align: center;  /* to allign the text in the div */
+    text-shadow: 2px 2px 4px #000000; /* adds a shadow to text*/
+    
+  }
+/* This applies to the box shadow*/
+  #box-shadow{
+    box-shadow: 8px 8px 8px rgb(224, 155, 76); /* 1 helps you chose the colour and thickness of border */
+    border-radius: 10px;/* how curvy it is  */
+  }
